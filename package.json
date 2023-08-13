@@ -1,0 +1,17 @@
+{
+  "name": "ics4skolengo",
+  "version": "1.0.0",
+  "description": "An API to get your schedule from Skolengo and convert it to an ICS file.",
+  "main": "ent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Polo",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "html-to-text": "^9.0.2",
+    "ics": "^2.35.0",
+    "node-fetch": "^2.6.1"
+  }
+}
