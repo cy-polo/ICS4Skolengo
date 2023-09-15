@@ -31,9 +31,10 @@ You must have [Node JS](https://nodejs.org/en/) and an access to one of the [Sko
 
 ## Usage
 
-Clone this project, install dependencies using `npm install`, complete the `config.json` file (`REMOTE_ENT_API` is for the [Skolengo domain](#list-of-skolengos-domains), `LOCAL_ICS_IP` is your private/public IP and `LOCAL_ICS_PORT` is the port for the server). Run the using `node ent.js`.
+Clone this project, install dependencies using `npm install`, complete the `config.json` file (`REMOTE_ENT_API` is for the [Skolengo domain](#list-of-skolengos-domains), `LOCAL_ICS_IP` is your private/public IP and `LOCAL_ICS_PORT` is the port for the server). Run the project using `node ent.js`.
 
-Open `/login`. Log in using the temporary identifiers obtained from the website (parameter > mobile application to obtain them).
+Open `127.0.0.1:3000/login` on your browser, according to your config.  
+Log in using the temporary identifiers obtained from the website (parameter > mobile application to obtain them).
 You'll get a link containing your ENT server authentication token. Sharing your token gives you access to your account.
 
 All you have to do is subscribe to this URL from a calendar application (for Google Calendar, you have to go to the website to subscribe, not the application).

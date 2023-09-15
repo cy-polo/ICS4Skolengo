@@ -18,7 +18,7 @@ exports.entClient = class entClient {
         try {
             const info = await sendRequest("infoutilisateur");
 
-            if (info.errmsg === null) {
+            if (!info.errmsg) {
                 schoolId = info.idEtablissementSelectionne;
                 
                 return true;
